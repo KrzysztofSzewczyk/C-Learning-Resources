@@ -1,19 +1,19 @@
-# C learning resources
-This repository contains list of books and other resources about C programming that are in my opinion best to learn from. There are many sources but not every is correct. This way, beginners make a lot of mistakes in their code. I'm suggesting to read books in the order I've provided.
-#### Where **not** to learn from:
- - [TutorialsPoint](https://www.tutorialspoint.com/cprogramming/index.htm). TutorialsPoint is an good website for **reference** not learning. If you want to learn something to it's fullest, get a book.
- - [Udemy](https://www.udemy.com/c-programming-for-beginners/). Udemy is not good place to learn C from. Courses cost pretty much ($100). **Some courses recommend using old Borland C++ Builder** - learning outdated stuff is not way to go.
- - [SoloLearn](https://www.sololearn.com/). SoloLearn does not offer any course to learn C from. The website teaches you **how** to do something, while your own experience teaches you how to *do* something.
- - [Youtube](https://youtube.com/). Learning from various youtube channels that are not-so-popular is not a good idea. You need solid place to learn from. Although, there are channels like [this one](https://www.youtube.com/channel/UCzn6vAfspIcagLax1fck_jw). They introduce really bad programming practices and learn how to **not** program.
-#### Where to learn from:
- - [K&R book](http://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) is often thought as the bible of C. There are many C standards but K&R C is thought as the most common - every compiler has to support it. The most used standard is C89, although we have C99 and C11 that are more recent. This way, K&R book is always on topic. It was written by creators of C - they can't be wrong.
-   * Pros:
-     * This book is **written by Dennis Ritchie**, who **was one of the main people behind the development and design of C** and UNIX.
-     * This book is so well known that it's affectionately called "K&R", after the authors.
-     * It's been cited in many other books and is familiar to most, if not all, CS students.
-     * The challenges at the end of each chapter do a great job of requiring many of the skills learned up to that point. Completing the challenges is a great way of insuring you understand the material.
-   * Cons:
-     * The K&R style works for old Unix mainframe command-line programs that exit after a simple task and leave the cleanup to the OS; where input is only from trusted experts; and most functions are only called internally to the program. The environment is very different today. This style will get your server pwned by hackers, or crash it due to a memory leak. You will have to learn C again to use C correctly in the real world **today**.
+# Źródła do nauki programowania w języku C
+To repozytorum zawiera listę książek i innych zasobów o programowaniu w języku C które są w mojej opinii nalepsze do nauki tego języka. Jest wiele źródeł, lecz nie każde jest poprawne. W ten sposób, początkujący popełniają zbyt dużo często powtarzających się błędów w swoim kodzie. Zalecałbym Ci czytanie książek w takiej kolejności jak ta którą podałem.
+#### Z jakich miejsc się **nie** uczyć:
+ - [TutorialsPoint](https://www.tutorialspoint.com/cprogramming/index.htm). TutorialsPoint to dobra strona do np. spojrzenia jak działa dana funkcja. Z tej strony nie nauczysz się C we właściwy sposób.
+ - [Udemy](https://www.udemy.com/c-programming-for-beginners/). Udemy nie jest dobrym miejscem do nauki C. Kursy kosztują zdecydowanie zbyt dużo (440 PLN w momencie pisania). **Niektóre kursy zalecają użycie starego Borland C++ Buildera** - Nauka starych technologii to niezbyt dobry start w programowaniu.
+ - [SoloLearn](https://www.sololearn.com/). SoloLearn nie oferuje żadnego kursu z jakiego możemy się nauczyć C. Ta strona internetowa uczy **jak** coś zrobić, podczas gdy twoje doświadczenie uczy jak coś **zrobić**.
+ - [Youtube](https://youtube.com/). Nauka z niezbyt-popularnych kanałów na YouTube to nie jest dobry pomysł. Potrzebujesz nawuczyć się z dobrego miejsca. Są popularne kanały, takie jak [ten](https://www.youtube.com/channel/UCzn6vAfspIcagLax1fck_jw). Ten kanał jest idealny by nauczyć się jak **nie** programować.
+#### Z jakich miejsc można się uczyć:
+ - [K&R book](http://cs.indstate.edu/~cbasavaraj/cs559/the_c_programming_language_2.pdf) bardzo często mówi się że jest to biblia C. Jest wiele standardów C, ale K&R C ma sławę tego który jest najbardziej popularny - każdy szanujący się kompilator musi to wspierać. Najczęściej używany standard to C89, ale C99 i C11 są nowsze. W ten sposób, książka K&R jest cały czas na czasie. Została napisana przez twórców C, którzy koniec końców nie mogli się mylić.
+   * Zalety:
+     * Ta książka **była napisana przez Dennisa Ritchie**, który **był jednym z najważniejszych ludzi tworzących C** i UNIX.
+     * Ta książka jest nazywana również "K&R", patrząc po imionach autorów.
+     * Cytowana w wielu innych książkach. Jest bardzo dobrze znana przez studentów CS.
+     * Zadania na końcu rozdziałów umożliwiają naukę w lepszy sposób i upewniają czytelnika czy powinien powtórzyć materiał, czy może iść dalej. Wykonywanie zadań z książki to świetny sposób żeby dobrze poznać materiał.
+   * Wady:
+     * Styl K&R działa na starych komputerach z systemem UNIX w trybie tekstowym (chodzi o komputery typu mainframe) programy przeważnie kończą się wykonując prostezadanie i nie zwalniają po sobie pamięci; where input is only from trusted experts; and most functions are only called internally to the program. The environment is very different today. This style will get your server pwned by hackers, or crash it due to a memory leak. You will have to learn C again to use C correctly in the real world **today**.
      * Some commands and practices are out of date, so errata and googling is needed while going through the book.
      * Assumes familiarity not only with programming concepts but some C language specifics - not so simple for beginners.
  * [C Programming: Modern approach, 2nd Edition](https://www.amazon.com/C-Programming-Modern-Approach-2nd/dp/0393979504)
